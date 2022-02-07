@@ -4,7 +4,7 @@
   "description": "\"# projetStage\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,12 @@
   "homepage": "https://github.com/MaxenceBossin/projetStage#readme",
   "dependencies": {
     "apollo-server": "^3.6.2",
+    "bcryptjs": "^2.4.3",
     "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
